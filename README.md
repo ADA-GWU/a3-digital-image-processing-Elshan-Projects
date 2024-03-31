@@ -13,3 +13,4 @@
 * __Dilation + 2 x Erosion:__ Dilation with its kernel size set to 4 was followed by 2 erosion operations (kernel sizes = 3 and 2). The granular size of pepper noise was reduced, however the pepper dots are still visible. Further erosions introduce discontinuities within the lines.
 * __Addition of Vertical Line and Horizontal Line Convolutions:__ 2-pixel kernels with vertical and horizontal lines fully removed the pepper noise but disrupted most of the lines around the OH and NH groups.
 * __Complex Cleaning - Addition of Horizontal and Vertical + Dilation:__ Dilation with a 3-pixel kernel after the line convolutions fixed the lines to a decent degree while preserving the noise removal success of the previous line convolutions. This approach is combined the best feature of the previous attempts.
+# Task 2 - Speckle removal
