@@ -1,5 +1,5 @@
 <p align="center">
-__The "Original_Images" folder contains the images selected for the experiments.__
+<b> The "Original_Images" folder contains the images selected for the experiments.__</b>>
 </p>
 
 # Task 1 - Noise removal and reconstruction
