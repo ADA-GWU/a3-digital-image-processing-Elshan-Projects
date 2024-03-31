@@ -1,3 +1,4 @@
+__The "Original_Images" folder contains the images selected for the experiments.__
 # Task 1 - Noise removal and reconstruction
 * The notebook containing my solution is: ***Task_1_Chemical.ipynb***
 * The results of this task are saved in the ___Results/Chemical_Structures_Results___ folder with a separate subfolder for every processed image.
