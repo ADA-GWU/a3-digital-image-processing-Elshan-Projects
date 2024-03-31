@@ -28,3 +28,23 @@ The outline of the ribcage is fairly visible despite losing its contrast when co
 Most of the noise was removed from the background which slightly decreased the contrast of the phalanges.
 ### Image 5.png / Region Size = 40
 Most of the speckle noise was successfully removed with the sole artefact being the shining apperance of the lower femur.
+
+# Task 3 - Visualization of the MRI data
+The following metadata elements were extracted:
+1. Patient ID
+2. Patient's Name
+3. Study Date
+4. Modality
+5. Series Description
+6. Slice Thickness
+7. Image Position (Patient)
+8. Image Orientation (Patient)
+9. Manufacturer
+10. Manufacturer's Model Name
+11. Body Part Examined
+12. Patient's Age
+13. Patient's Sex
+
+### 00045_T1w
+### 00769_T2w
+### 02233_T2w
