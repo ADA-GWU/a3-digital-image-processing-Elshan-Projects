@@ -31,7 +31,7 @@ Most of the speckle noise was successfully removed with the sole artefact being 
 
 # Task 3 - Visualization of the MRI data
 * The notebook containing my solution is: ***Task_3_MRI_Visualization.ipynb***
-The following metadata elements were extracted from the *.dcm* files:
+* The following metadata elements were extracted from the *.dcm* files:
 1. **Patient ID**: A unique identifier for the patient.
 2. **Patient's Name**: The name of the patient.
 3. **Study Date**: The date when the MRI scan was performed.
