@@ -14,3 +14,13 @@
 * __Addition of Vertical Line and Horizontal Line Convolutions:__ 2-pixel kernels with vertical and horizontal lines fully removed the pepper noise but disrupted most of the lines around the OH and NH groups.
 * __Complex Cleaning - Addition of Horizontal and Vertical + Dilation:__ Dilation with a 3-pixel kernel after the line convolutions fixed the lines to a decent degree while preserving the noise removal success of the previous line convolutions. This approach is combined the best feature of the previous attempts.
 # Task 2 - Speckle removal
+* The notebook containing my solution is ***"Task_2_Speckle_Removal.ipynb"***
+* The results for this task are located in the ***Results\Speckle_Filtering_Results*** folder
+* Bilateral Filtering was used to remove speckle noise from the following images, the d parameter which controls the window size was set to -1 to be dynamically calculated based on the region size (Sigma).
+* The region sizes were experimentally set to preserve a balance betweeen the discernabilty of the edges of the bones and transitions between the background and foreground.
+### Image 3.png / Region size = 35
+The outline of the ribcage is fairly visible despite losing its contrast when compared to the collarbone.
+### Image 4.png / Region Size = 50
+Most of the noise was removed from the background which slightly decreased the contrast of the phalanges.
+### Image 5.png / Region Size = 40
+Most of the speckle noise was successfully removed with the sole artefact being the shining apperance of the lower femur.
