@@ -30,8 +30,8 @@ Most of the noise was removed from the background which slightly decreased the c
 Most of the speckle noise was successfully removed with the sole artefact being the shining apperance of the lower femur.
 
 # Task 3 - Visualization of the MRI data
-The following metadata elements were extracted:
-1. Patient ID
+The following metadata elements were extracted from the *.dcm* files:
+___1. Patient ID
 2. Patient's Name
 3. Study Date
 4. Modality
@@ -43,7 +43,7 @@ The following metadata elements were extracted:
 10. Manufacturer's Model Name
 11. Body Part Examined
 12. Patient's Age
-13. Patient's Sex
+13. Patient's Sex___
 
 ### 00045_T1w
 ### 00769_T2w
