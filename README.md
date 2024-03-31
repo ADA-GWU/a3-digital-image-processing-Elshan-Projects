@@ -31,19 +31,20 @@ Most of the speckle noise was successfully removed with the sole artefact being 
 
 # Task 3 - Visualization of the MRI data
 The following metadata elements were extracted from the *.dcm* files:
-___1. Patient ID
-2. Patient's Name
-3. Study Date
-4. Modality
-5. Series Description
-6. Slice Thickness
-7. Image Position (Patient)
-8. Image Orientation (Patient)
-9. Manufacturer
-10. Manufacturer's Model Name
-11. Body Part Examined
-12. Patient's Age
-13. Patient's Sex___
+1. **Patient ID**: A unique identifier for the patient.
+2. **Patient's Name**: The name of the patient.
+3. **Study Date**: The date when the MRI scan was performed.
+4. **Modality**: The type of imaging modality, which should be 'MRI' for these scans.
+5. **Series Description**: A description of the MRI series, providing details on the specific protocol used (e.g., T1-weighted, T2-weighted, FLAIR).
+6. **Slice Thickness**: The thickness of each MRI slice, measured in millimeters, indicating the resolution of the scan.
+7. **Image Position (Patient)**: The position of the image slice in relation to the patient's body, usually given as a 3-value vector.
+8. **Image Orientation (Patient)**: The orientation of the image slice, also typically provided as a 6-value vector indicating the direction cosines.
+9. **Manufacturer**: The name of the company that manufactured the MRI equipment.
+10. **Manufacturer's Model Name**: The model name of the MRI equipment used for the scan.
+11. **Body Part Examined**: The part of the body examined, which should be 'BRAIN' for these scans.
+12. **Patient's Age**: The age of the patient at the time of the scan.
+13. **Patient's Sex**: The sex of the patient (e.g., Male, Female).
+
 
 ### 00045_T1w
 ### 00769_T2w
