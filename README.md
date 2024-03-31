@@ -30,7 +30,7 @@ Most of the noise was removed from the background which slightly decreased the c
 Most of the speckle noise was successfully removed with the sole artefact being the shining apperance of the lower femur.
 
 # Task 3 - Visualization of the MRI data
-* * The notebook containing my solution is: ***Task_3_MRI_Visualization.ipynb***
+* The notebook containing my solution is: ***Task_3_MRI_Visualization.ipynb***
 The following metadata elements were extracted from the *.dcm* files:
 1. **Patient ID**: A unique identifier for the patient.
 2. **Patient's Name**: The name of the patient.
