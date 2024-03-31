@@ -46,6 +46,6 @@ The following metadata elements were extracted from the *.dcm* files:
 13. **Patient's Sex**: The sex of the patient (e.g., Male, Female).
 
 
-### 00045_T1w
-### 00769_T2w
-### 02233_T2w
+### 00045_T1w - 17 layers were visualized.
+### 00769_T2w - 21 layers were visualized.
+### 02233_T2w - 12 layers were visualized.
